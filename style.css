@@ -1,0 +1,213 @@
+.navbar{
+    margin-bottom: 0;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+    
+}
+
+.navbar-custom .navbar-brand{
+    color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-size: 2em;
+}
+
+.navbar-default .navbar-nav li a {
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #fed136;
+}
+
+.navbar-custom .navbar-nav .active a {
+    color: black;
+    background-color: #fed136;
+}
+
+.first{
+    background-image:url(./photo/dark-bg.jpeg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+
+.center-text{
+    text-align: center;
+    margin-top: 250px;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    padding: 10px;
+}
+.center-text h1,.center-text h3{
+    font-size: 4em;
+}
+
+.center-text .btn{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.second{
+    height: 800px;
+    background-color: #ccc;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.affix{
+    background-color: #222;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.portfolio{
+    margin-bottom: 60px;
+    font-size: 1.5em;
+}
+
+.portfolio h1{
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+
+.links{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.pages{
+    border-radius: 10px;
+}
+
+.pages a button{
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pages a button hide{
+    display: none;
+}
+
+.pages:hover{
+    transform: scale(1.1);
+    display: button;
+    transition-duration: 1s;
+}
+
+.websites{
+    
+}
+
+#website-1{
+    background-image: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg);
+    height: 250px;
+    background-position: center;
+}
+
+#website-2{
+    background-image: url(https://deliciousthemes.com/wp-content/uploads/website-layout-tutorials/blog-wordpress-website-layout.jpg);
+    height: 250px;
+    background-position: center;
+}
+
+#website-3{
+    background-image: url(http://my-smashing.smashingapps.netdna-cdn.com/wp-content/uploads/2011/12/webdesignlayout19.jpg);
+    height: 250px;
+    background-position: center;
+}
+
+.website-desc{
+    background-color: #fff;
+    margin-top: 0;
+    padding: 25px;
+}
+
+.website-desc h3, .website-desc p{
+    margin: 0px
+}
+
+.services-heading{
+    font-size: 4em;
+    text-align: center;
+    padding: 100px;
+    font-family: cursive;
+}
+
+.services-1 {
+    background-color: #eee;
+    height: 230px;
+    padding-top: 35px;
+}
+
+.services-2 {
+    background-color: #fff;
+    height: 230px;
+    padding-top: 35px;
+}
+
+.web-design-bg{
+    text-align: center;
+}
+
+.spacer{
+    border-top: 3px solid #777;
+    width: 300px;
+    position: relative;
+}
+/*
+.services-1 .glyphicon{
+    float: right;
+    display: block;
+    font-size: 10em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 10px;
+}
+*/
+
+.icon{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.icon-1{
+    background-image: url(icons/adwords-announce-gray.svg);
+}
+
+.icon-2{
+    background-image: url(icons/laptop.svg);
+}
+
+.icon-3{
+    background-image: url(icons/responsive-design-symbol.svg)
+}
+
+footer{
+    width: 100%;
+    background-color: #222;
+    text-align: inherit;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+footer p{
+    color: aliceblue;
+    padding: 15px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
